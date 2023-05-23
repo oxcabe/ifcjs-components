@@ -30,7 +30,7 @@ Test Plan:
 import THREE from "three";
 import { Disposer } from "../Disposer";
 import { SimpleScene } from "./index";
-import { Components } from "../../base-types";
+import { Components } from "../Components";
 
 describe("SimpleScene_class", () => {
   test("constructor", () => {
